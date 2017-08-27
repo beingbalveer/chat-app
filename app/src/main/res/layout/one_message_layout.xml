@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <RelativeLayout
+        android:id="@+id/message_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/inner_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_background"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/message_body_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hi ! whats up"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/message_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 PM"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/message_body_text"
+                android:textColor="#333"
+                android:layout_marginBottom="16dp"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>

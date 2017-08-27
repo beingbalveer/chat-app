@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_purple</item>
+        <item name="colorPrimaryDark">#95b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/cardview_light_background</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+</resources>
